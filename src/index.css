@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Satisfy&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: black;
+  overflow-x: hidden;
 }
+.b{
+  border-radius: 100px;
+  background-color: black;
+  border: solid #f7db0a;
+}
+.h,.p,.q{
+  font-family: 'Satisfy', cursive;
+
+}
+.in{
+  border-radius: 10px;
+  background-color: #f4ecb3;
+}
+.bu{
+  border-radius: 10px;
+  background-color: #960303;
+}
+.i{
+  height: 200px;
+}
+.a2{
+  margin-top: 3%;
+}
+.fe{
+  width: 70%;
+}
+.f1,.d1{
+  font-family: 'Satisfy', cursive;
+}
+@media (max-width: 770px) {
+  .a2{
+    margin-top: 0%;
+  }
+  .fe{
+    width: 100%;
+  }
+  }

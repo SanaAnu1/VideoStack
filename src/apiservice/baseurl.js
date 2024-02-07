@@ -1,0 +1,1 @@
+export const BASE_URL='https://videostackserver-0lgb.onrender.com'
